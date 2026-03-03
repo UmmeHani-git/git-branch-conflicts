@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello, backend is working!"
+    return "Hello from backend"
 
 if __name__ == "__main__":
     app.run(debug=True)
